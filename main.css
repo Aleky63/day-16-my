@@ -92,7 +92,7 @@ button {
 .card__btn {
   cursor: pointer;
 }
-.card__btn-add:active path {
+.card__btn--add:active path {
   stroke: red;
   fill: red;
 }
