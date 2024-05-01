@@ -90,11 +90,14 @@ button {
   margin-right: 16px;
 }
 .card__btn {
+  background-image: url(heart.svg);
   cursor: pointer;
+  width: 28px;
+  height: 28px;
+  background-size: cover;
 }
-.card__btn--add:active path {
-  stroke: red;
-  fill: red;
+.card__btn-elect {
+  background-image: url(elect.svg);
 }
 
 .card__time {
